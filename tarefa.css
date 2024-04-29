@@ -1,0 +1,110 @@
+body {
+    background: #f3f3f5;
+    color: #333;
+    font-family: 'Ubuntu', sans-serif;
+}
+   
+.container{
+    background:#fff;
+    max-width: 450px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    
+}
+    
+.form{
+    margin-top: 4px;
+}
+form form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+.form label{
+        font-weight: bold;
+        margin-top: 4px;
+        margin-bottom: 4px;
+}
+.form input{
+        height: 32px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding-left: 12px;
+        border: 1px solid #999;
+}
+.fore Input:focus{
+    background: #FFF;
+}
+.fore button {
+background:rgb(255, 0, 136);
+height: 32px;
+border: none;
+border-radius: 4px;
+color: #FFF;
+margin-top: 4px;
+margin-bottom:4px;
+}
+.fore button:hover {
+    background:rgb(208, 5, 113);
+}
+.separator {
+background:999;
+height: 2px;
+border-radius: 1px;
+}
+.list-tasks{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.list-tasks ul{
+    list-style: none;
+}
+.list-tasks ul li {
+   background: #0000ff;
+   height: 32px;
+   border-radius: 32px;
+   color: #ffffff;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   padding: 12px;
+
+   display: flex;
+   Justify-content: left;
+   align-items: center;
+
+   transition: background 0.3;
+
+}
+.list-tasks ul li:hover{
+    background: #ffffff;
+}
+.btn-clear {
+    background:#EF5350;
+    padding: 12px;
+    color: #fff;
+    border: none;
+
+    transition: background 0.3;
+
+}
+
+.btn-clear{
+    background: #333;
+}
+.footer {
+    background: #fefef5;
+    border-radius: 4px;
+    padding: 12px;
+}
+.footer p {
+    color: #fefef5;
+    font-size: 12px;
+}
