@@ -30,6 +30,11 @@ Essas tecnologias foram escolhidas por sua ubiquidade, facilidade de uso e robus
 Tecnologia utilizada ⌨️
 https://www.youtube.com/watch?v=dJ49I-QYYUk&ab_channel=MonolitoPHP- video aula para desenvolver o código 
 
+Autores ✒️
+Veronica 
+Nome do deve 
+Leonardo rocha 
+
 
 
 

@@ -1,31 +1,32 @@
 /* Estilos Gerais */
 body {
-    background: #f3f3f5; /* Fundo cinza claro */
-    color: #333; /* Texto preto */
+    background: #f3f3f5;
+    color: #333;
     font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centraliza verticalmente */
 }
 
 /* Contêiner Principal */
 .container {
-    background: #fff; /* Fundo branco */
+    background: #fff; /* Mantém a cor de fundo do contêiner */
     max-width: 450px;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
     padding: 12px;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
 }
 
 /* Cabeçalho */
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4px;
+    text-align: center; /* Centraliza horizontalmente */
+    margin-top: 16px;
 }
 
 /* Formulário */
 .form {
-    margin-top: 4px;
+    margin-top: 16px;
 }
 
 form form {
@@ -36,36 +37,83 @@ form form {
 
 .form label {
     font-weight: bold;
-    margin-top: 4px;
     margin-bottom: 4px;
 }
 
 .form input {
     height: 32px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     padding-left: 12px;
     border: 1px solid #999;
 }
 
 /* Botão de Cadastro */
 .fore button {
-    background: #ff0088; /* Vermelho */
+    background: #ff0088;
     height: 32px;
     border: none;
     border-radius: 4px;
-    color: #fff; /* Texto branco */
-    margin-top: 4px;
-    margin-bottom: 4px;
+    color: #fff;
+    margin-top: 8px;
 }
 
 .fore button:hover {
-    background: #d00571; /* Tom mais escuro de vermelho ao passar o mouse */
+    background: #d00571;
 }
 
-/* Separador */
-.separator {
-    background: #999; /* Cinza */
-    height: 2px;
-    border-radius: 1px
+/* Lista de Tarefas */
+.list-tasks {
+    margin-top: 16px;
+}
+
+.list-tasks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-tasks ul li {
+    background: #0000ff;
+    height: 32px;
+    border-radius: 32px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+    padding: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.list-tasks ul li:hover {
+    background: #fff;
+}
+
+/* Botão de Limpar Tarefas */
+.btn-clear {
+    background: #ef5350;
+    padding: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    width: 100%; /* Ocupa toda a largura */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.btn-clear:hover {
+    background: #333;
+}
+
+/* Rodapé */
+.footer {
+    background: #fefef5;
+    border-radius: 4px;
+    padding: 12px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.footer p {
+    margin: 0; /* Remove margem padrão */
+    color: #fefef5;
+    font-size: 12px;
 }
