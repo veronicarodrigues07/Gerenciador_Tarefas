@@ -1,13 +1,13 @@
 /* Estilos Gerais */
 body {
-    background: #fff; /* Fundo branco */
+    background: #f3f3f5; /* Fundo cinza claro */
     color: #333; /* Texto preto */
     font-family: 'Ubuntu', sans-serif;
 }
 
 /* Contêiner Principal */
 .container {
-    background: #fff;
+    background: #fff; /* Fundo branco */
     max-width: 450px;
     margin-top: 5%;
     margin-left: auto;
@@ -50,7 +50,7 @@ form form {
 
 /* Botão de Cadastro */
 .fore button {
-    background: #ff0000; /* Vermelho */
+    background: #ff0088; /* Vermelho */
     height: 32px;
     border: none;
     border-radius: 4px;
@@ -59,52 +59,13 @@ form form {
     margin-bottom: 4px;
 }
 
-/* Botão de Limpar Tarefas */
-.btn-clear {
-    background: #333; /* Preto */
-    padding: 12px;
-    color: #fff; /* Texto branco */
-    border: none;
-    transition: background 0.3s;
-}
-
-.btn-clear:hover {
-    background: #444; /* Tom mais escuro de preto */
+.fore button:hover {
+    background: #d00571; /* Tom mais escuro de vermelho ao passar o mouse */
 }
 
 /* Separador */
 .separator {
     background: #999; /* Cinza */
     height: 2px;
-    border-radius: 1px;
+    border-radius: 1px
 }
-
-/* Lista de Tarefas */
-.list-tasks {
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-
-.list-tasks ul {
-    list-style: none;
-}
-
-.list-tasks ul li {
-    background: #0000ff; /* Azul */
-    height: 32px;
-    border-radius: 32px;
-    color: #fff; /* Texto branco */
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding: 12px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    transition: background 0.3s;
-}
-
-.list-tasks ul li:hover {
-    background: #fff; /* Branco */
-}
-
-/* Rod

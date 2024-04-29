@@ -52,7 +52,7 @@ if (isset($_GET['clear'])) {
             </form>
         </div>
         <div class="footer">
-            <p>Desenvolvido por @nomedodev</p>
+            <p>Desenvolvido por @veronicarodrigues07</p>
         </div>
     </div>
 </body>
