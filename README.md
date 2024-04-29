@@ -16,8 +16,6 @@ Funcionalidade ⚙️
 
 1. **Clone o Repositório:** Você pode clonar este repositório em sua máquina local usando o seguinte comando:
 
-```bash
-git clone https://github.com/seu_usuario/seu_repositorio.git
  
 
 Tecnologia utilizada ⌨️
