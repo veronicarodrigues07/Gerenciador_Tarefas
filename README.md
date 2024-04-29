@@ -12,9 +12,7 @@ Funcionalidade ⚙️
 
 - **Limpar Tarefas:** Existe um botão "Limpar Tarefas" que permite que os usuários removam todas as tarefas cadastradas de uma vez.
 
-## Como Usar
 
-1. **Clone o Repositório:** Você pode clonar este repositório em sua máquina local usando o seguinte comando:
 
  
 
